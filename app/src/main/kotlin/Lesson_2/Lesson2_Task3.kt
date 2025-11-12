@@ -8,8 +8,8 @@ fun main() {
     val roadTime = 457
 
     val arrivalTimeTotal = departureTimeHours * TIME_DIVIDER + departureTimeMinutes + roadTime
-    val arrivalTimeMinutes = arrivalTimeTotal % 60
-    val arrivalTimeHours = arrivalTimeTotal / 60
+    val arrivalTimeMinutes = arrivalTimeTotal % TIME_DIVIDER
+    val arrivalTimeHours = arrivalTimeTotal / TIME_DIVIDER
 
     println("%02d:%02d".format(arrivalTimeHours, arrivalTimeMinutes))
 
