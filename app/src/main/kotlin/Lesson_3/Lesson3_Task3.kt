@@ -4,7 +4,7 @@ fun main() {
     val number = 6
 
     println("""
-        $number x 1 = ${number}
+        $number x 1 = $number
         $number x 2 = ${number * 2}
         $number x 3 = ${number * 3}
         $number x 4 = ${number * 4}
