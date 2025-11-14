@@ -3,11 +3,9 @@ package org.example.Lesson_3
 fun main() {
     val username = readln()
 
-    var greeting = "Добрый день, $username!"
-    println(greeting)
+    var greeting = "Добрый день"
+    println("$greeting, $username!")
 
-
-    greeting = "Добрый вечер, $username!"
-    println(greeting)
-
+    greeting = "Добрый вечер"
+    println("$greeting, $username!")
 }
